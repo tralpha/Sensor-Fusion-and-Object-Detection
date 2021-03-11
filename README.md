@@ -87,6 +87,7 @@ By completing all the steps of the project, we will have implemented our own sen
   * Implementing the function get_hx() with the nonlinear camera measurement function h by transforming position estimate from vehicle to camera coordinates.
   * Removing the restriction to lidar in the function generate_measurement() in order to include camera as well.
   * Initializing camera measurement objects including z, R, and the sensor object sensor.
+
   Here, our RMSE plot showed four confirmed tracks. There were no ghost tracks or track loss. Two of the tracks (track 0 and track 1) are tracked from beginning to end of the sequence (0s - 200s) without track loss. The mean RMSE for these two tracks is below 0.25. Therefore, it follows the project rubrics. 
   
   
@@ -134,6 +135,7 @@ Our sensor fusion system can face many real-life problems.
 * Our system was developed using precomputed detection where theses videos were recorded during daylight. So, in real life scenario, when our system faces dark condition, it may not perform well considering camera measurements are less accurate at night time.
 * Another challenge would be expecting precise result from measurement noise configuration. Instead of setting a fixed noise variance, ideal scenario would be each measurement should have its own variance.
 * In real world scenario, we need multiple tracks and measures to have accurate association. But the challenging part is to set a proper gating threshold for all scenario.
+
 Another common challenge is extrinsic parameters calibration. Proper configuration for camera and LIDAR extrinsic parameter is quite important for such projects. Since we are using publicly available dataset, our project does tackle this issue by having known parameters. 
 
 ## 4. Can you think of ways to improve your tracking results in the future? 
