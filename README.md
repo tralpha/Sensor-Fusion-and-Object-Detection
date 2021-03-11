@@ -103,7 +103,7 @@ By completing all the steps of the project, we will have implemented our own sen
 The tracking movie is saved under the directory /result/movies. A sample of the generated movie is included in the directory /video.
 
 <p>
-    <img src="video/video.gif"/>
+    <img src="video/my_tracking_results_main.avi"/>
 </p>
 
 
