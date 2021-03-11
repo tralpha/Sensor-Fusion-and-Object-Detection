@@ -1,4 +1,3 @@
-# Sensor-Fusion-and-Object-Detection
 
 # Sensor Fusion and Object Detection
 
