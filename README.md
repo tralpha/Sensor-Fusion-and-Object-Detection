@@ -56,7 +56,7 @@ By completing all the steps of the project, we will have implemented our own sen
   ## Output: 
 
   <p>
-    <img src="img/2.png"/>
+    <img src="img/2_2.png"/>
     <br>
     <em>RMSE value</em>
   </p>
